@@ -1,0 +1,19 @@
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #34495e;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
