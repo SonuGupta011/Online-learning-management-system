@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+        }
+        .course {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Learning Management System</h1>
+    </header>
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#courses">Courses</a>
+        <a href="#profile">Profile</a>
+        <a href="#logout">Logout</a>
+    </nav>
+    <main>
+        <section id="dashboard">
+            <h2>Welcome, User</h2>
+            <p>Track your progress and manage your courses here.</p>
+        </section>
+        <section id="courses">
+            <h2>Available Courses</h2>
+            <div class="course">
+                <h3>Course Title 1</h3>
+                <p>Description of the course. Learn about...</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course">
+                <h3>Course Title 2</h3>
+                <p>Description of the course. Discover...</p>
+                <button>Enroll Now</button>
+            </div>
+            <!-- Add more courses as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Online LMS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
